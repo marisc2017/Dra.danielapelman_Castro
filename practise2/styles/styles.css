@@ -1,0 +1,664 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+     /* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Antic+Didone&family=Dancing+Script&family=Open+Sans&display=swap");
+
+:root {
+    /* colors */
+    --primary: #8e819f;
+    --secondary: rgba(255, 255, 255, 0.679); 
+    --alternative: #c4b9d4;
+    --borders: #8ab9ca; 
+    --borders-opac: #8ab9cab8; 
+    --text-color: #8e819ffd;
+    --text-navbar: #150425;
+
+    /* font-family */
+    --font-principal:'Open Sans', sans-serif;
+    --font-title: 'Antic Didone', serif;
+
+    /* font-size */
+    --text-xlarge: 3em;
+    --text-large: 2.5em;
+    --text-medium: 2em;
+    --text-small: 1.5em;
+    --text-xsmall: 1em;
+    --text-xxsmall: 0.8em;
+
+    /* spacings */
+    --space-xlarge: 6rem;
+    --space-large: 2.4rem;
+    --space-medium: 2rem;
+    --space-small:  1,5rem;
+    --space-xsmall: 1rem;
+}
+ /* -----------------------------------------encabezado-------------------------------------------- */
+ img{
+    width: 100%;
+ }
+header{
+    display: inline flex;
+    flex-flow: row nowrap;
+    size-adjust: 100%;
+}
+
+.gridLogo{
+    display: grid;
+    grid-template-areas: 
+       "none logo none";
+    margin: 8px;
+}
+ #logo{
+    width:450px;  
+    height:150px; 
+    grid-area: logo;
+}
+.logoExtra{
+    justify-content: left;
+    width:300px;
+    height: 80px;
+}
+.link{
+    text-decoration: none;
+    padding: var(--space-small);
+    margin: var(--text-small);
+    font-variant: small-caps;
+    font-size: var(--text-small);
+    font-family: var(--font-title);
+    color: var(--text-navbar);
+    display: inline;
+    flex-wrap: wrap;
+    background-color: var(--text-color);
+    list-style: none;
+}
+nav li{
+    display: inline;
+    flex-wrap: wrap;
+    background-color: var(--text-color);
+    list-style: none;
+    
+
+}
+.navBar{
+    max-width: 1200px auto;
+    background-color: var(--text-color);
+    padding: var(--space-small);
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+/* -----------------------------------------Index-------------------------------------------- */
+#seccionHome{
+   max-width: max-content;
+    padding: var(--space-medium);
+    gap: 10px;
+    margin-top: var(--space-xsmall);
+    border-radius: 20px;
+    background-color: var(--secondary);
+    display: grid;
+    grid-template-columns: (6, 1fr) ;
+    grid-template-rows: (6, 1fr) ;
+    justify-items: center;
+    align-items: center;
+}
+.imgHome:nth-of-type(1){
+    max-width: 700px;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.imgHome:nth-of-type(2){
+    max-width: 540px;
+    grid-column: 3/6;
+    grid-row: 1/2;
+}
+.imgHome:nth-of-type(3){
+    max-width: 540px;
+    grid-column: 3/6;
+    grid-row: 2/3;
+    opacity: 90%;
+}
+.imgHome:nth-of-type(4){
+    max-width: 710px;
+    grid-column: 1/4;
+    grid-row: 3/6;
+    opacity: 95%;
+}
+.imgHome:nth-of-type(5){
+    max-width: 300px;
+    grid-column: 5/5;
+    grid-row: 4/5;
+    opacity: 10%;
+}
+
+.imgHome:hover{
+    transform: scale(0.99);
+}
+
+body{
+    background-image: url("https://img.freepik.com/foto-gratis/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.jpg?w=900&t=st=1661704218~exp=1661704818~hmac=c1495783018fda888eeecb846b7bf95d6dab06f65aef2d54a6d36063d82a8e92");
+    background-repeat: repeat;
+    background-size: contain;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1{ 
+    color: var(--text-navbar);
+    font-family: var(--font-title);
+    font-style: normal;
+    font-size: var(--text-large);
+    font-variant: small-caps;
+    background-color: var(--alternative);
+    border-bottom-right-radius: 20px;
+    padding: var(--space-small);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-right: 500px;
+}
+/* -----------------------------------------sobre_mi-------------------------------------------- */
+.sobreMiParrafo {
+    width: 500px auto;
+    height: 300px auto;
+    margin-left: 50px;
+    font-style: italic;
+    font-size: var(--text-xsmall);
+    font-weight: 100;
+    font-family: var(--font-principal);
+    grid-area: sobreMiParrafo;
+}
+.mainFlex{
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 100%;
+    padding: var(--space-small);
+    margin-top: auto;
+    margin: var(--space-medium);
+    background-color: var(--alternative);
+    border-radius: 2rem;
+    display: grid;
+    grid-template-columns: 20% 10% 60% 10%;
+    grid-template-rows: 20% 50% 20% 10%;
+    grid-template-areas: 
+         "imgDani none sobreMiParrafo sobreMiParrafo"
+         "imgDani imgDani2 sobreMiParrafo sobreMiParrafo"
+         "imgDani imgDani2 sobreMiParrafo sobreMiParrafo "
+         "imgDani imgDani2 imgDani3 imgDani3 ";
+}
+.imgDani{
+    border-radius: 20px;
+    width:  300px;
+    height: 450px;
+    grid-area: imgDani;
+}
+.imgDani2{
+    border-radius: 20px;
+    width: 150px;
+    height: 230px;
+    grid-area: imgDani2;
+}
+.imgDani3{
+    border-radius: 50px;
+    opacity: 50%;
+    width:60px;
+    height:60px;
+    grid-area: imgDani3;
+}
+/* -----------------------------------------Trat.Faciales-------------------------------------------- */
+.tittleTF{
+    text-align:left;
+    padding: var(--space-small);
+    font-weight: 800;
+}
+
+h2{
+    text-align: left;
+    font-size: var(--text-medium);
+    font-weight: 700;
+    font-family: var(--font-title);
+    margin: var(--space-large);
+    margin-left: 45px;
+    color: var(--text-navbar);
+    flex-direction: column;
+}
+.imgPrp{
+    width: auto;
+    height: auto;
+    border-radius: 40px;
+}
+.mainTexto, .mainTexto2, .mainTexto3{
+    font-style: italic;
+    font-size: var(--text-xsmall);
+    font-weight: 100;
+    font-family: var(--font-principal);
+    padding-bottom: 10px;
+    align-items: center;
+    max-width: 85%;
+    margin-left: 70px;
+    justify-content: center;
+
+}
+#seccionTratFacial{
+    margin: var(--space-large);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    border-color: var(--borders);
+    background-color: var(--borders-opac);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.classFotoPlasma{
+    gap: auto;
+    margin: var(--space-xsmall);
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 clamp(900px, 30%, 1000px);
+    align-content: center;
+    justify-content: center;
+}
+
+#seccionTratFacial2{
+    margin-left: 30px;
+    margin: var(--space-large);
+    justify-content: center;
+    display: inline-block;
+    flex-wrap: nowrap;
+    border-radius: 15px;
+    border-color: var(--borders);
+    background-color: var(--borders-opac);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.imagenesLimpieza{
+    gap: auto;
+    margin: var(--space-large);
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 clamp(900px, 30%, 1000px);
+    align-items: center;
+    justify-items: center;
+}
+.imgLimpieza{
+    max-width:70%;
+    border-radius: 20px;
+}
+.imgLimpieza2{
+    max-width: 25%;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.secondText, .secondText2, .secondText3{
+    font-style: italic;
+    font-size: var(--text-xsmall);
+    font-weight: 100;
+    font-family: var(--font-principal);
+    padding-bottom: 10px;
+    align-items: center;
+    max-width: 85%;
+    margin-left: 70px;
+    justify-content: center;
+    
+}
+/* -----------------------------------------Trat.Corporales-------------------------------------------- */
+.imagenesCorporal{
+    gap: auto;
+    margin: var(--space-large);
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 clamp(500px, 30%, 700px);
+    align-items: baseline;
+    justify-items: center;
+}
+.imgOndaR{
+    max-width: 63%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.imgOndaR2{
+    max-width: 35%;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.secondText, .secondText2, .secondText3{
+    font-style: italic;
+    font-size: var(--text-xsmall);
+    font-weight: 100;
+    font-family: var(--font-principal);
+}
+h3{
+    text-align: center;
+    font-family: var(--font-title);
+    font-size: var(--text-xsmall);
+}
+/* -----------------------------------------Contacto-------------------------------------------- */
+h4{
+    color: var(--text-navbar);
+    font-size: var(--text-small);
+    font-weight: lighter;
+    border-radius: 20px;
+    padding: var(--text-xxsmall);
+    font-style: var(--font-title);
+}
+.linkRedInstagram{
+    max-width: 100px;
+    opacity: 70%;
+
+}
+.linkRedesFace{
+    max-width: 100px;
+    opacity: 80%;
+
+}
+
+.mainGrid{
+    padding-top: var(--space-small);
+    max-width: auto;
+    max-height: auto;
+    column-gap: 1rem;
+    row-gap: 0.5rem;
+    margin-top:  var(--space-medium);
+    display: grid;
+    grid-template-columns: 4, 1fr ;
+    grid-template-rows: 6 1fr;
+    grid-template-areas: 
+       "form form form none none none"
+       "form form form contactoDatos contactoDatos contactoDatos"
+       "form form form contactoDatos contactoDatos contactoDatos"
+       "form form form redesContacto redesContacto redesContacto"
+}
+
+.camposObligatorios{
+    text-align: center;
+    font-family: var(--font-title);
+    font-size: var(--text-xxsmall);
+    font-style: italic;
+}
+.contactosTexto{
+    align-content: center;
+    line-height: auto;
+    max-width: auto;
+    grid-area: contactoDatos;
+}
+
+.redesContacto{
+    max-width: 350px;
+    max-height: 150px;
+    display: inline-flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-items: center;
+    padding: var(--space-xsmall);
+    grid-area: redesContacto;
+    background-color: var(--secondary);
+    border-radius: 150px;
+    
+}
+form{
+    background-color: var(--alternative);
+    width: 30rem;
+    height: 25rem;
+    border-color: var(--text-color);
+    border-radius: 100px;
+    display: inline-block;
+    align-items: center;
+    grid-area: form;
+}
+form .boton{
+    border: solid var(--secondary);
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+}
+form .boton:hover{
+    padding: 4px;
+    background-color: var(--borders)
+
+}
+input, select, button {
+    width : 10rem;
+    height: 1rem;
+}
+textarea{
+    width: 20rem;
+    height: 10rem;
+}
+form, p, label{
+    text-align: center;
+    font-family: var(--font-title);
+    font-size: var(--text-xsmall);
+    font-weight: 400;
+    padding: 15px;
+}
+.boton{
+    font-size: var(--text-xsmall);
+    font-family: var(--font-principal);
+    font-weight:bold;
+    color:white;
+    background:var(--text-color);
+    border:0px;
+    border-radius: 8px;
+    width:80px;
+    height:30px;
+}
+/* -----------------------------------------footer-------------------------------------------- */
+.contactoDatos{
+    font-style: italic;
+    font-weight: lighter;
+    font-family: var(--font-title);
+}
+
+.redesFooter{
+    text-align: center;
+
+}
+.instLogoFooter{
+    max-width: 20px;
+}
+.fbLogoFooter{
+    max-width: 20px;
+}
+.footer{
+    background-color: var(--primary);
+    opacity: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: var(--font-title);
+    font-style: normal;
+    font-size: var(--text-xxsmall);
+    font-weight: bolder;
+    font-variant: small-caps;
+    color: var(--text-navbar);
+    margin-top: 40px;
+    background-image: linear-gradient(to bottom, white, #8e819ffd);
+}
+footer p{
+    margin-left: 1%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--text-small);
+}
+.copy{
+    text-align: center;
+    font-style: normal;
+    line-height: 3;
+    font-size: var(--text-xxsmall);
+    opacity: 80%;
+    margin-top: -20px;
+}
+
+/* --------------------------------------responsive---------------------------------------------- */
+@media screen and (max-width: 480px) {
+    body{
+        max-width: auto;
+    }
+    h1{ 
+        justify-content: left;
+        margin-right: 50px;
+    }
+    .link{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: auto;
+        margin: auto;
+    }
+    nav li{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .navBar{
+        max-width: auto;
+    }
+    .gridLogo{
+        grid-template-areas: 
+           "logo none";
+        margin: auto;
+    }
+    header{
+        display:  inline-flex;
+        flex-flow: column wrap;
+        max-width: auto;
+    }
+    img{
+       max-width: fit-content;
+     }
+
+    #logo{
+        max-width:400px;  
+        justify-content: center;
+        align-items: center;
+    }
+    .logoExtra{
+        max-width: 100px;
+    }
+    #seccionHome{
+        max-width: 400px;
+         padding: var(--space-small);
+         gap: 2px;
+         margin-top: var(--space-xsmall);
+         grid-template-columns: (3, 1fr) ;
+         grid-template-rows: (5, 1fr) ;
+     }
+     .imgHome:nth-of-type(1){
+        max-width: 300px;
+        grid-column: 1/3;
+        grid-row: 1/1;
+    }
+    .imgHome:nth-of-type(2){
+        max-width: 150px;
+        grid-column: 1/1;
+        grid-row: 2/2;
+    }
+    .imgHome:nth-of-type(3){
+        max-width: 150px;
+        grid-column: 2/3;
+        grid-row: 2/2;
+        opacity: 90%;
+    }
+    .imgHome:nth-of-type(4){
+        max-width: 300px;
+        grid-column: 1/3;
+        grid-row: 4/4;
+        opacity: 95%;
+    }
+    .imgHome:nth-of-type(5){
+        max-width: 90px;
+        grid-column: 2/2;
+        grid-row: 5/5;
+    }
+
+
+    .mainFlex{
+        padding-top: 80px;
+        max-height: 1200px;
+        margin: 10px;
+        max-width: 380px;
+        grid-template-columns: 3, 1fr;
+        grid-template-rows: 3, 1fr;
+        grid-template-areas: 
+             "imgDani imgDani sobreMiParrafo "
+             "imgDani2 nnone sobreMiParrafo  "
+             "imgDani2 imgDani3 sobreMiParrafo  ";
+    }
+    .sobreMiParrafo {
+        max-width: 200px;
+        max-height: auto;
+    }
+    .imgDani{
+        width:  400px;
+        height: 300px;
+    }
+    .imgDani2{
+        width: 180px;
+        height: 300px;
+
+    }
+
+    #seccionTratFacial{
+        margin: var(--space-medium);
+    }
+    .imgPrp{
+        width: 350px;
+        height: 280px;
+        border-radius: 40px;
+    }
+    .mainTexto, .mainTexto2, .mainTexto3{
+        max-width: 85%;
+        margin-left: 5px;
+    }
+    .secondText, .secondText2, .secondText3{
+        max-width: 85%;
+        margin-left: 5px;
+    }
+
+    .mainGrid{
+        padding: 50px;
+        max-width: 400px;
+        margin: 1px;
+        grid-template-columns: 1, 1fr ;
+        grid-template-rows: 4, 1rem;
+        grid-template-areas: 
+           "form"
+           "form"
+           "contactoDatos"
+           "redesContacto"
+    }
+    form{
+        max-width: 300px;
+    }
+    textarea{
+        width: 15rem;
+        height: 5rem;
+    }
+    .contactosTexto{
+        max-width: 400px;
+        max-height: auto;
+    }
+
+    .redesContacto{
+        max-width: 300px;
+        max-height: 200px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+
+
+
+    .footer{
+       max-width: 400px;
+    }
+}

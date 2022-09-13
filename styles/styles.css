@@ -64,12 +64,12 @@ header{
 .link, .navbar_brand {
     text-decoration: none;
     padding: var(--space-small);
-    margin: var(--text-large);
+    margin: var(--text-medium);
     font-variant: small-caps;
     font-size: var(--text-small);
     font-family: var(--font-title);
     color: var(--text-navbar);
-    display: inline;
+    display: inline flex;
     flex-wrap: wrap;
     background-color: var(--text-color);
     list-style: none;
@@ -79,8 +79,6 @@ nav li{
     flex-wrap: wrap;
     background-color: var(--text-color);
     list-style: none;
-    
-
 }
 .navBar{
     max-width: 1200px auto;
@@ -88,7 +86,7 @@ nav li{
     padding: var(--space-small);
     text-align: center;
     display: flex;
-    flex-flow: row wrap;
+
     justify-content: center;
     border-radius: 5px;
 

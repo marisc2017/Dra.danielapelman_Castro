@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../styles/styles.css">
-    <link rel="shortcut icon" href="../images/isotip.png">
+     <!-- CSS only -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+   <link rel="stylesheet" href="../styles/styles.css">
+   <link rel="shortcut icon" href="../images/isotip.png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,13 +32,38 @@
      <!------------------------------------------- main--------------------------------------->
     <h1> Sobre Mi</h1>
     <main class="mainFlex">
-        <img class="imgDani" src="../images/danieladiploma.jpg" alt="Dra Daniela Pelman">
-        <img class="imgDani2" src="../images/danicerca.JPG" alt="Daniela Pelman" >
+        
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img height="350px" src="../images/danieladiploma.jpg" class="d-block w-100" alt="Dra Daniela Pelman">
+              </div>
+              <div class="carousel-item">
+                <img height="350px" src="../images/danicerca.JPG" class="d-block w-100" alt="Daniela Pelman">
+              </div>
+              <div class="carousel-item">
+                <img height="350px" src="../images/vectorimgfiguramujer.webp" class="d-block w-100"  alt="isotipo dra Daniela Pelman">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div> 
+
      <div class="sobreMiParrafo">
         <p> presentacion.-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat vitae laudantium est obcaecati tenetur reiciendis amet, perferendis id, dicta sint accusamus corrupti rerum ut magni dolor illum alias libero ea.</p>
         <p> detalle de estudios. -seguimos con Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eveniet repellat repellendus illo voluptatibus quae cum? Libero suscipit sint dignissimos beatae temporibus repellat doloribus possimus dolorum, ipsum eveniet consequatur officiis!</p>
         <p> titulos cierre futuro.- Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quos voluptatibus nisi placeat quia voluptas minus assumenda reiciendis rem consectetur. Eius id, saepe blanditiis facilis dolorum magni tempora delectus in.</p>
-        <img class="imgDani3" src="../images/isotip.png" alt="isotipo dra Daniela Pelman">
       </div>
     </main>
 <!------------------------------------------- footer--------------------------------------->
@@ -52,5 +79,7 @@
      
         <p class="copy">Copyright Dra. Daniela Pelman - 2022. Todos los derechos reservados.</p>
     </footer>
+        <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>  
 </html>

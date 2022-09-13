@@ -61,10 +61,10 @@ header{
     width:300px;
     height: 80px;
 }
-.link{
+.link, .navbar_brand {
     text-decoration: none;
     padding: var(--space-small);
-    margin: var(--text-small);
+    margin: var(--text-large);
     font-variant: small-caps;
     font-size: var(--text-small);
     font-family: var(--font-title);
@@ -156,7 +156,7 @@ h1{
     background-color: var(--alternative);
     border-bottom-right-radius: 20px;
     padding: var(--space-small);
-    display: flex;
+    display: flex;  
     flex-flow: row wrap;
     justify-content: center;
     margin-right: 500px;
@@ -172,6 +172,7 @@ h1{
     font-family: var(--font-principal);
     grid-area: sobreMiParrafo;
 }
+
 .mainFlex{
     align-items: center;
     justify-content: center;

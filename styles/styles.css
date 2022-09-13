@@ -62,6 +62,7 @@ header{
     height: 80px;
 }
 .link, .navbar_brand {
+    max-width: 1200px;
     text-decoration: none;
     padding: var(--space-small);
     margin: var(--text-medium);

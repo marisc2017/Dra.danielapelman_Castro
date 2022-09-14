@@ -172,6 +172,7 @@ h1{
     grid-area: sobreMiParrafo;
 }
 
+
 .mainFlex{
     align-items: center;
     justify-content: center;
@@ -340,6 +341,11 @@ h3{
     font-size: var(--text-xsmall);
 }
 /* -----------------------------------------Contacto-------------------------------------------- */
+.cardForm{
+    background-color: var(--primary);
+    text-align: center;
+
+}
 h4{
     color: var(--text-navbar);
     font-size: var(--text-small);

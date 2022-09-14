@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+     <!-- CSS only -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="shortcut icon" href="../images/isotip.png">
     <meta charset="UTF-8">
@@ -41,24 +43,33 @@
         <a class="linkRedesFace" href="https://www.facebook.com/"target="blank"><img src="../images/4987649B-86EE-4B79-936F-0B4E46A07CAE 2.jpg" alt="logo facebook"></a>
     </section>
     <br><br>
-    <form class="gridForm">
-        <h3>Enviame un mensaje:</h3>
-        <p class="camposObligatorios">Los campos obligatorios se marcan con un <abbr title = "required">*</abbr>.</p>
-        <label for="nombre">Nombre y Apellido: </label>
-        <input type="Text" name="nombre y apellido" placeholder="Ingresa tu Nombre "> <abbr title="required" aria-label="required">*</abbr>
-        <br>
-        <label for="fecha de nacimiento">Fecha de nacimiento:</label>
-        <input type="date" id="fecha de nacimiento">
-        <br>
-        <label for="email">Email:</label>
-        <input type="email" name="email" placeholder="Ingresa tu Email"> <abbr title="required" aria-label="required">*</abbr>
-        <br><br>
-        <label for="consulta">Consulta</label> <abbr title="required" aria-label="required">*</abbr>
-        <br>
-        <textarea></textarea>
-        <br>
-        <input type="submit" value="Enviar" class="boton">
-    </form>
+
+    <div class="cardForm gridForm" style="width: 32rem">
+        <img src="../images/4987649B-86EE-4B79-936F-0B4E46A07CAE 2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title" >Enviame un Mensaje</h4>
+          <p class="camposObligatorios">Los campos obligatorios se marcan con un <abbr title = "required">*</abbr>.</p>
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre y apellido</label>
+            <input type="Text" name="nombre y apellido" placeholder="Ingresa tu Nombre "> <abbr title="required" aria-label="required">*</abbr>
+          </div>
+          <div class="mb-3">
+            <label for="fecha de nacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="fecha de nacimiento">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@mail.com">
+          </div>
+          <div class="mb-3">
+            <br>
+            <label for="consulta" class="form-label">Consulta</label><abbr title="required" aria-label="required">*</abbr>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <input type="submit" value="Enviar" class="boton">
+          </div>
+        </div>
+      </div>
+
 </main>
     <!------------------------------------------- footer--------------------------------------->
     <footer class="footer">
@@ -73,5 +84,7 @@
      
         <p class="copy">Copyright Dra. Daniela Pelman - 2022. Todos los derechos reservados.</p>
     </footer>
+        <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -14,25 +14,50 @@
     <title>Sobre Mi</title>
 </head>
 <!------------------------------------------- encabezado--------------------------------------->
-<body>
-    <header>
+<body class="container-fluid">
+    <section class="row">
+        <section class="col-12">
+    <header class="text-center">
+    </section>
+    </section>
+    <section class="row">
+        <section class="col">
         <div class="gridLogo">
-            <a  id="logo" href="../index.html"><img src="../images/logocut.jpg" alt="isologo"></a>
+            <a  id="logo" href="../index.html"><img src="../images/logocut.jpg" class="rounded" alt="isologo"></a>
             </div>
-        <nav class="navBar">
-            <ul>
-                <li> <a class="link" href="../index.html">Inicio</a></li>
-                <li> <a class="link" href="./sobre_mi.html"> Sobre mi</a></li>
-                <li> <a class="link" href="./faciales.html">Tratamientos Faciales</a></li>
-                <li> <a class="link" href="./corporales.html">Tratamientos Corporales</a></li>
-                <li> <a class="link" href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+            <nav class="navbar navbar-expand-md position-relative start-50 translate-middle-x">
+                <div class="container-fluid ">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav navBar">
+                      <li class="nav-item">
+                        <a class="link" href="../index.html">Inicio </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="link" aria-current="page" href="./sobre_mi.html">Sobre mi</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="link" href="./faciales.html">Tratamientos Faciales </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="link" href="./corporales.html">Tratamientos Corporales</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="link" href="./contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </section>
+          </section>
     </header>
      <!------------------------------------------- main--------------------------------------->
     <h1> Sobre Mi</h1>
     <main class="mainFlex">
-        
+
         <div id="carouselExampleIndicators" class="carousel slide"; data-bs-ride="true">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>

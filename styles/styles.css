@@ -451,18 +451,17 @@ input, select, button {
     background-image: linear-gradient(to bottom, white, #8e819ffd);
 }
 footer p{
-    margin-left: 1%;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    font-size: var(--text-small);
+    font-size: var(--text-medium);
 }
 .copy{
     text-align: center;
     font-style: normal;
     line-height: 3;
-    font-size: var(--text-small);
+    font-size: var(--text-xsmall);
     margin-top: -20px;
 }
 

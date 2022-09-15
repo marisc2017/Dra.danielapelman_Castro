@@ -450,6 +450,20 @@ input, select, button {
     margin-top: 40px;
     background-image: linear-gradient(to bottom, white, #8e819ffd);
 }
+.footer{
+    background-color: var(--primary);
+    opacity: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: var(--font-principal);
+    font-style: normal;
+    font-size: var(--text-xxsmall);
+    font-weight: bolder;
+    font-variant: small-caps;
+    color: var(--text-navbar);
+    margin-top: 40px;
+    background-image: linear-gradient(to bottom, white, #8e819ffd);
+}
 footer p{
     display: flex;
     flex-flow: row wrap;

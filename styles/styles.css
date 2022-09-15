@@ -62,12 +62,11 @@ header{
     height: 80px;
 }
 .link, .navbar_brand {
-    max-width: auto;
     text-decoration: none;
     padding: var(--space-small);
     margin: var(--text-medium);
     font-variant: small-caps;
-    font-size: var(--text-git );
+    font-size: var(--text-small );
     font-family: var(--font-title);
     color: var(--text-navbar);
     display: inline flex;
@@ -432,7 +431,7 @@ input, select, button {
 
 }
 .instLogoFooter{
-    max-width: 120px;
+    max-width: 100px;
 }
 .fbLogoFooter{
     max-width: 100px;

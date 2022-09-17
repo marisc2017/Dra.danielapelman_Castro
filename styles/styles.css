@@ -160,54 +160,32 @@ h1{
 }
 /* -----------------------------------------sobre_mi-------------------------------------------- */
 .sobreMiParrafo {
+    margin: var(--space-medium);
+    padding: var(--space-large);
     width: 500px auto;
     height: 300px auto;
-    margin-left: 50px;
     font-style: italic;
-    font-size: var(--text-xsmall);
+    font-size: var(--text-small);
     font-weight: 100;
     font-family: var(--font-principal);
-    grid-area: sobreMiParrafo;
-}
-
-
-.mainFlex{
-    align-items: center;
-    justify-content: center;
-    width: 95%;
-    height: 100%;
-    padding: var(--space-small);
-    margin-top: auto;
-    margin: var(--space-medium);
-    background-color: var(--alternative);
-    border-radius: 2rem;
-    display: grid;
-    grid-template-columns: 20% 10% 60% 10%;
-    grid-template-rows: 20% 50% 20% 10%;
-    grid-template-areas: 
-         "imgDani none sobreMiParrafo sobreMiParrafo"
-         "imgDani imgDani2 sobreMiParrafo sobreMiParrafo"
-         "imgDani imgDani2 sobreMiParrafo sobreMiParrafo "
-         "imgDani imgDani2 imgDani3 imgDani3 ";
+    background-color: var(--borders-opac);
+    border-radius: 20px;
 }
 .imgDani{
     border-radius: 20px;
     width:  300px;
     height: 450px;
-    grid-area: imgDani;
 }
 .imgDani2{
     border-radius: 20px;
     width: 150px;
     height: 230px;
-    grid-area: imgDani2;
 }
 .imgDani3{
     border-radius: 50px;
     opacity: 50%;
     width:60px;
     height:60px;
-    grid-area: imgDani3;
 }
 /* -----------------------------------------Trat.Faciales-------------------------------------------- */
 .tittleTF{
@@ -562,32 +540,6 @@ footer p{
         grid-row: 5/5;
     }
 
-
-    .mainFlex{
-        padding-top: 80px;
-        max-height: 1200px;
-        margin: 10px;
-        max-width: 380px;
-        grid-template-columns: 3, 1fr;
-        grid-template-rows: 3, 1fr;
-        grid-template-areas: 
-             "imgDani imgDani sobreMiParrafo "
-             "imgDani2 nnone sobreMiParrafo  "
-             "imgDani2 imgDani3 sobreMiParrafo  ";
-    }
-    .sobreMiParrafo {
-        max-width: 200px;
-        max-height: auto;
-    }
-    .imgDani{
-        width:  400px;
-        height: 300px;
-    }
-    .imgDani2{
-        width: 180px;
-        height: 300px;
-
-    }
 
     #seccionTratFacial{
         margin: var(--space-medium);

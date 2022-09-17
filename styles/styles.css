@@ -368,7 +368,7 @@ footer p{
 }
 
 /* --------------------------------------responsive---------------------------------------------- */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
     body{
         max-width: auto;
     }
@@ -473,6 +473,9 @@ footer p{
         max-width: 400px;
         max-height: auto;
     }
+.cardContacto, .cardForm{
+    width: 25rem;
+}
 
     .redesContacto{
         max-width: 300px;

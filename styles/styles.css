@@ -192,12 +192,6 @@ h1{
     height:60px;
 }
 /* -----------------------------------------Trat.Faciales-------------------------------------------- */
-.tittleTF{!!!!!
-    text-align:left;
-    padding: var(--space-small);
-    font-weight: 800;
-}
-
 h2{
     font-size: var(--text-medium);
     font-weight: 700;
@@ -206,16 +200,15 @@ h2{
     padding-bottom: var(--space-medium);
     color: var(--text-navbar);
 }
-.carouselPrp{
-    margin-left: var(--space-xxlarge);
+.carouselCardTrat{
+    margin: 2px 60px 0px 60px;
 }
 .cardPrp{
     background-color: var(--borders-opac)
 }
 .imgPrp{
-    width: auto;
-    height: auto;
-    border-radius: 40px;
+    margin: 5px 50px 10px 50px;
+
 }
 .mainTexto, .mainTexto2 {
     line-height: var(--space-medium);
@@ -226,21 +219,10 @@ h2{
     font-family: var(--font-principal);
     padding-bottom: var(--space-small);
     align-items: center;
-    max-width: 90%;
-    margin-left: 70px;
-    justify-content: center;
+    max-width: 100%;
 
 }
-#seccionTratFacial{ !!!!!!! en main
-    margin: var(--space-large);
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 15px;
-    border-color: var(--borders);
-    background-color: var(--borders-opac);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
 .classFotoPlasma{
     gap: auto;
     margin: var(--space-xsmall);
@@ -251,49 +233,6 @@ h2{
     justify-content: center;
 }
 
-#seccionTratFacial2{
-    margin-left: 30px;
-    margin: var(--space-large);
-    justify-content: center;
-    display: inline-block;
-    flex-wrap: nowrap;
-    border-radius: 15px;
-    border-color: var(--borders);
-    background-color: var(--borders-opac);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.imagenesLimpieza{
-    gap: auto;
-    margin: var(--space-large);
-    display: flex;
-    flex-direction: row;
-    flex: 1 1 clamp(900px, 30%, 1000px);
-    align-items: center;
-    justify-items: center;
-}
-.imgLimpieza{
-    max-width:70%;
-    border-radius: 20px;
-}
-.imgLimpieza2{
-    max-width: 25%;
-    border-top-right-radius: 40px;
-    border-bottom-right-radius: 40px;
-}
-
-.secondText, .secondText2, .secondText3{
-    font-style: italic;
-    font-size: var(--text-xsmall);
-    font-weight: 100;
-    font-family: var(--font-principal);
-    padding-bottom: 10px;
-    align-items: center;
-    max-width: 85%;
-    margin-left: 70px;
-    justify-content: center;
-    
-}
 /* -----------------------------------------Trat.Corporales-------------------------------------------- */
 .imagenesCorporal{
     gap: auto;
@@ -550,24 +489,6 @@ footer p{
         grid-row: 5/5;
     }
 
-
-    #seccionTratFacial{
-        margin: var(--space-medium);
-    }
-    .imgPrp{
-        width: 350px;
-        height: 280px;
-        border-radius: 40px;
-    }
-    .mainTexto, .mainTexto2, .mainTexto3{
-        max-width: 85%;
-        margin-left: 5px;
-    }
-    .secondText, .secondText2, .secondText3{
-        max-width: 85%;
-        margin-left: 5px;
-    }
-
     .mainGrid{
         padding: 50px;
         max-width: 400px;
@@ -598,10 +519,6 @@ footer p{
         justify-content: center;
         align-items: center;
     }
-    
-
-
-
 
     .footer{
        max-width: 400px;

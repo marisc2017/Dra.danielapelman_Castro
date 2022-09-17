@@ -40,6 +40,9 @@
  .buttonNavBar{
     background-color: var(--alternative);
  }
+ .buttonNavBar:hover{
+    width: 100px;
+ }
  img{
     width: 100%;
  }
@@ -231,20 +234,35 @@ h3{
 }
 /* -----------------------------------------Contacto-------------------------------------------- */
 .cardForm{
-    background-color: var(--primary);
+    background-color: var(--alternative);
     text-align: center;
     border-radius: 20px;
-    padding: 10px;
+    padding: var(--space-medium);
+    margin-top: var(--space-medium);
+}
+#redesContacto{
+    transition: padding 1s;
+    border: solid var(--borders);
+    background-color: var(--borders-opac) 
+}
+#redesContacto:hover{
+    background-color: var(--borders);
+    color: white;
+    border: solid var(--text-navbar);
+    padding: 5px;
 }
 .cardContacto{
-    background-color: var(--primary);
+    background-color: var(--alternative);
     text-align: center;
     border-radius: 20px;
     padding: 15px;
+    margin-bottom: var(--space-small);
 }
 #textoContacto{
     border-radius: 50px;
     padding: 8px;
+    margin-bottom: 50px;
+    background-color: var(--primary);
 }
 h4{
     color: var(--text-navbar);
@@ -253,15 +271,6 @@ h4{
     border-radius: 20px;
     padding: var(--text-xxsmall);
     font-style: var(--font-title);
-}
-.linkRedInstagram{
-    max-width: 100px;
-    opacity: 70%;
-
-}
-.linkRedesFace{
-    max-width: 100px;
-    opacity: 80%;
 }
 
 .camposObligatorios{
@@ -277,16 +286,6 @@ h4{
     grid-area: contactoDatos;
 }
 
-form .boton{
-    border: solid var(--secondary);
-    cursor: pointer;
-    transition: all 0.8s ease-in-out;
-}
-form .boton:hover{
-    padding: 4px;
-    background-color: var(--borders)
-
-}
 input, select {
     width : 10rem;
     height: 1rem;
@@ -299,16 +298,16 @@ input, select {
     font-weight: 400;
     padding: 15px;
 }
-.boton{
-    font-size: var(--text-xsmall);
-    font-family: var(--font-principal);
-    font-weight:bold;
-    color:white;
-    background:var(--text-color);
-    border:0px;
-    border-radius: 8px;
-    width:80px;
-    height:30px;
+#botonContacto{
+    transition: padding 1s;
+    border: solid var(--borders);
+    background-color: var(--borders-opac) 
+}
+#botonContacto:hover{
+    background-color: var(--borders);
+    color: white;
+    border: solid var(--text-navbar);
+    padding: 5px;
 }
 /* -----------------------------------------footer-------------------------------------------- */
 .contactoDatos{
@@ -330,15 +329,13 @@ input, select {
 #cardFooter{
     background-color: var(--primary);
     opacity: 60%;
-    background-repeat: no-repeat;
-    background-size: cover;
     font-family: var(--font-principal);
     font-style: normal;
     font-size: var(--text-xxsmall);
     font-weight: bolder;
     font-variant: small-caps;
     color: var(--text-navbar);
-    margin-top: 40px;
+    margin-top: var(--space-large);
     background-image: linear-gradient(to bottom, white, #8e819ffd);
 }
 .footer{

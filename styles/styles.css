@@ -29,6 +29,7 @@
     --text-xxsmall: 0.8em;
 
     /* spacings */
+    --space-xxlarge: 8rem;
     --space-xlarge: 6rem;
     --space-large: 2.4rem;
     --space-medium: 2rem;
@@ -36,6 +37,9 @@
     --space-xsmall: 1rem;
 }
  /* -----------------------------------------encabezado-------------------------------------------- */
+ .buttonNavBar{
+    background-color: var(--alternative);
+ }
  img{
     width: 100%;
  }
@@ -153,12 +157,12 @@ h1{
     background-color: var(--alternative);
     border-bottom-right-radius: 20px;
     padding: var(--space-small);
-    display: flex;  
-    flex-flow: row wrap;
     justify-content: center;
-    margin-right: auto;
 }
 /* -----------------------------------------sobre_mi-------------------------------------------- */
+.carouselSobreMi{
+    margin: 60px 0px 0px 20px;
+}
 .sobreMiParrafo {
     margin: var(--space-medium);
     padding: var(--space-large);
@@ -188,40 +192,46 @@ h1{
     height:60px;
 }
 /* -----------------------------------------Trat.Faciales-------------------------------------------- */
-.tittleTF{
+.tittleTF{!!!!!
     text-align:left;
     padding: var(--space-small);
     font-weight: 800;
 }
 
 h2{
-    text-align: left;
     font-size: var(--text-medium);
     font-weight: 700;
     font-family: var(--font-title);
-    margin: var(--space-large);
-    margin-left: 45px;
+    margin: var(--space-medium);
+    padding-bottom: var(--space-medium);
     color: var(--text-navbar);
-    flex-direction: column;
+}
+.carouselPrp{
+    margin-left: var(--space-xxlarge);
+}
+.cardPrp{
+    background-color: var(--borders-opac)
 }
 .imgPrp{
     width: auto;
     height: auto;
     border-radius: 40px;
 }
-.mainTexto, .mainTexto2, .mainTexto3{
+.mainTexto, .mainTexto2 {
+    line-height: var(--space-medium);
+    text-align: center;
     font-style: italic;
-    font-size: var(--text-xsmall);
+    font-size: var(--text-small);
     font-weight: 100;
     font-family: var(--font-principal);
-    padding-bottom: 10px;
+    padding-bottom: var(--space-small);
     align-items: center;
-    max-width: 85%;
+    max-width: 90%;
     margin-left: 70px;
     justify-content: center;
 
 }
-#seccionTratFacial{
+#seccionTratFacial{ !!!!!!! en main
     margin: var(--space-large);
     display: flex;
     flex-wrap: wrap;
@@ -374,7 +384,7 @@ form .boton:hover{
     background-color: var(--borders)
 
 }
-input, select, button {
+input, select {
     width : 10rem;
     height: 1rem;
 }

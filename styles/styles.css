@@ -223,43 +223,7 @@ h2{
 
 }
 
-.classFotoPlasma{
-    gap: auto;
-    margin: var(--space-xsmall);
-    display: flex;
-    flex-direction: row;
-    flex: 1 1 clamp(900px, 30%, 1000px);
-    align-content: center;
-    justify-content: center;
-}
-
 /* -----------------------------------------Trat.Corporales-------------------------------------------- */
-.imagenesCorporal{
-    gap: auto;
-    margin: var(--space-large);
-    display: flex;
-    flex-direction: row;
-    flex: 1 1 clamp(500px, 30%, 700px);
-    align-items: baseline;
-    justify-items: center;
-}
-.imgOndaR{
-    max-width: 63%;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-.imgOndaR2{
-    max-width: 35%;
-    border-top-right-radius: 40px;
-    border-bottom-right-radius: 40px;
-}
-.secondText, .secondText2, .secondText3{
-    font-style: italic;
-    font-size: var(--text-xsmall);
-    font-weight: 100;
-    font-family: var(--font-principal);
-}
 h3{
     text-align: center;
     font-family: var(--font-title);

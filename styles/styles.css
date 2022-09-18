@@ -26,6 +26,7 @@
     --text-medium: 2em;
     --text-small: 1.5em;
     --text-xsmall: 1em;
+    --text-xsmall2: 0.9em;
     --text-xxsmall: 0.8em;
 
     /* spacings */
@@ -71,9 +72,9 @@ header{
 .link, .navbar_brand {
     text-decoration: none;
     padding: var(--space-small);
-    margin: var(--text-medium);
+    margin: var(--text-xsmall2);
     font-variant: small-caps;
-    font-size: var(--text-small );
+    font-size: var(--text-medium );
     font-family: var(--font-title);
     color: var(--text-navbar);
     display: inline flex;

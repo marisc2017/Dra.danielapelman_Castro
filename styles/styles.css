@@ -209,8 +209,9 @@ h2{
 .cardPrp{
     background-color: var(--borders-opac)
 }
-.imgPrp{
+.imgTratamientos{
     margin: 5px 50px 10px 50px;
+    max-width: 60rem;
 
 }
 .mainTexto, .mainTexto2 {
@@ -402,17 +403,10 @@ footer p{
         flex-flow: column wrap;
         max-width: auto;
     }
-    img{
-       max-width: fit-content;
-     }
-
     #logo{
         max-width:400px;  
         justify-content: center;
         align-items: center;
-    }
-    .logoExtra{
-        max-width: 100px;
     }
     #seccionHome{
         max-width: 400px;
@@ -449,34 +443,17 @@ footer p{
         grid-column: 2/2;
         grid-row: 5/5;
     }
-
-    .mainGrid{
-        padding: 50px;
-        max-width: 400px;
-        margin: 1px;
-        grid-template-columns: 1, 1fr ;
-        grid-template-rows: 4, 1rem;
-        grid-template-areas: 
-           "form"
-           "form"
-           "contactoDatos"
-           "redesContacto"
-    }
-    form{
+    .carouselSobreMi{
         max-width: 300px;
     }
     textarea{
         width: 15rem;
         height: 5rem;
     }
-    .contactosTexto{
-        max-width: 400px;
-        max-height: auto;
-    }
-.cardContacto, .cardForm{
-    width: 25rem;
-}
 
+     .cardContacto, .cardForm{
+    max-width: 400px;
+     }
     .redesContacto{
         max-width: 300px;
         max-height: 200px;

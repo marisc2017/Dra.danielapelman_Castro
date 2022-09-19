@@ -82,6 +82,9 @@ header{
     background-color: var(--text-color);
     list-style: none;
 }
+.link:hover{
+    color: var(--text-navbar)
+}
 nav li{
     display: inline;
     flex-wrap: wrap;
@@ -148,7 +151,7 @@ nav li{
 body{
     background-image: url("https://img.freepik.com/foto-gratis/elegante-fondo-blanco-formas-abstractas-grises_1017-19952.jpg?w=900&t=st=1663464647~exp=1663465247~hmac=d3b6ef6f60a82b5a1a9d6de44249b7cf71ed8d3782012ead7d1e916f34475381");
     background-repeat: repeat;
-    background-size: contain;
+    background-size: cover;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -377,6 +380,7 @@ footer p{
     h1{ 
         justify-content: left;
         margin-right: 50px;
+        font-size: var(--text-medium);
     }
     .link{
         display: flex;
@@ -386,6 +390,7 @@ footer p{
         align-items: center;
         padding: auto;
         margin: auto;
+        font-size: var(--text-small);
     }
     nav li{
         display: flex;
@@ -405,7 +410,7 @@ footer p{
         max-width: auto;
     }
     #logo{
-        max-width:400px;  
+        max-width:370px;  
         justify-content: center;
         align-items: center;
     }
@@ -445,7 +450,16 @@ footer p{
         grid-row: 5/5;
     }
     .carouselSobreMi{
-        max-width: 300px;
+        max-width: 250px;
+        justify-items: center;
+        align-items: center;
+    }
+    .sobreMiParrafo{
+        text-align: center;
+    }
+    h2{
+        font-size: var(--text-medium);
+        text-align: center;
     }
     textarea{
         width: 15rem;
@@ -453,7 +467,8 @@ footer p{
     }
 
      .cardContacto, .cardForm{
-    max-width: 400px;
+    max-width: 24rem;
+
      }
     .redesContacto{
         max-width: 300px;

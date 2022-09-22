@@ -1,56 +1,49 @@
-.buttonNavBar{
-    background-color: $alternative;
- }
- .buttonNavBar:hover{
-    width: 100px;
- }
- img{
-    width: 100%;
- }
-header{
+header {
     display: inline flex;
     flex-flow: row nowrap;
     size-adjust: 100%;
         #logo{
-            width:AUTO;  
-            height:AUTO; 
-        }
-    .navBar {
-        li{
-            display: inline;
-            flex-wrap: wrap;
-            background-color: $text-color;
-            list-style: none;
+            width: 350px;  
+            height: 500px;
         }
     }
-}
+        nav {
+            .navBar{
+                max-width: auto;
+                background-color: $text-color;
+                padding: $space-small;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                border-radius: 5px;
+                .buttonNavBar{
+                    background-color: $alternative;
+                    &:hover { 
+                        width: 100px;
+                    }
+                } 
+               li {
+                display: inline;
+                flex-wrap: wrap;
+                background-color: $text-color;
+                list-style: none;
+                .link {
+                  text-decoration: none;
+                  padding: $space-small;
+                  margin: $text-xsmall2;
+                  font-variant: small-caps;
+                  font-size: $text-medium;
+                  font-family: $font-title;
+                  color: $text-navbar;
+                  display: inline flex;
+                  flex-wrap: wrap;
+                  background-color: $text-color;
+                  list-style: none;
+                  &:hover{
+                    color: $text-navbar;
+                  }
+                }
+            }
+        }
+    }
 
-
-
-.link, .navbar_brand {
-    text-decoration: none;
-    padding: $space-small;
-    margin: $text-xsmall2;
-    font-variant: small-caps;
-    font-size: $text-medium;
-    font-family: $font-title;
-    color: $text-navbar;
-    display: inline flex;
-    flex-wrap: wrap;
-    background-color: $text-color;
-    list-style: none;
-}
-.link:hover{
-    color: $text-navbar;
-}
-
-.navBar{
-    max-width: auto;
-    background-color: $text-color;
-    padding: $space-small;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    border-radius: 5px;
-
-}

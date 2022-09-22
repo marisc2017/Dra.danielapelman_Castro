@@ -4,6 +4,9 @@
   padding: 0px;
   font-family: "Open Sans", sans-serif;
 }
+* img {
+  width: 100%;
+}
 
 /* fonts */
 /* colors */
@@ -11,16 +14,12 @@
 /* font-size */
 /* spacings */
 /* -----------------------------------------encabezado-------------------------------------------- */
-.buttonNavBar {
-  background-color: #c4b9d4;
-}
-
-.buttonNavBar:hover {
-  width: 100px;
-}
-
-img {
-  width: 100%;
+body {
+  background-image: url("https://img.freepik.com/foto-gratis/elegante-fondo-blanco-formas-abstractas-grises_1017-19952.jpg?w=900&t=st=1663464647~exp=1663465247~hmac=d3b6ef6f60a82b5a1a9d6de44249b7cf71ed8d3782012ead7d1e916f34475381");
+  background-repeat: repeat;
+  background-size: cover;
+  max-width: 1200px;
+  margin: auto;
 }
 
 header {
@@ -29,17 +28,32 @@ header {
   size-adjust: 100%;
 }
 header #logo {
-  width: AUTO;
-  height: AUTO;
+  width: 350px;
+  height: 500px;
 }
-header .navBar li {
+
+nav .navBar {
+  max-width: auto;
+  background-color: rgba(142, 129, 159, 0.9921568627);
+  padding: 1, 5rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+nav .navBar .buttonNavBar {
+  background-color: #c4b9d4;
+}
+nav .navBar .buttonNavBar:hover {
+  width: 100px;
+}
+nav .navBar li {
   display: inline;
   flex-wrap: wrap;
   background-color: rgba(142, 129, 159, 0.9921568627);
   list-style: none;
 }
-
-.link, .navbar_brand {
+nav .navBar li .link {
   text-decoration: none;
   padding: 1, 5rem;
   margin: 0.9em;
@@ -52,19 +66,8 @@ header .navBar li {
   background-color: rgba(142, 129, 159, 0.9921568627);
   list-style: none;
 }
-
-.link:hover {
+nav .navBar li .link:hover {
   color: #150425;
-}
-
-.navBar {
-  max-width: auto;
-  background-color: rgba(142, 129, 159, 0.9921568627);
-  padding: 1, 5rem;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  border-radius: 5px;
 }
 
 /* -----------------------------------------Index-------------------------------------------- */
@@ -83,53 +86,38 @@ header .navBar li {
   justify-items: center;
   align-items: center;
 }
-
-.imgHome:nth-of-type(1) {
+#seccionHome .imgHome:nth-of-type(1) {
   max-width: 700px;
   grid-column: 1/3;
   grid-row: 1/3;
 }
-
-.imgHome:nth-of-type(2) {
+#seccionHome .imgHome:nth-of-type(2) {
   max-width: 540px;
   grid-column: 3/6;
   grid-row: 1/2;
 }
-
-.imgHome:nth-of-type(3) {
+#seccionHome .imgHome:nth-of-type(3) {
   max-width: 540px;
   grid-column: 3/6;
   grid-row: 2/3;
   opacity: 90%;
 }
-
-.imgHome:nth-of-type(4) {
+#seccionHome .imgHome:nth-of-type(4) {
   max-width: 710px;
   grid-column: 1/4;
   grid-row: 3/6;
   opacity: 95%;
 }
-
-.imgHome:nth-of-type(5) {
+#seccionHome .imgHome:nth-of-type(5) {
   max-width: 300px;
   grid-column: 5/5;
   grid-row: 4/5;
   opacity: 10%;
 }
-
-.imgHome:hover {
+#seccionHome .imgHome:hover {
   transform: scale(0.99);
 }
-
-body {
-  background-image: url("https://img.freepik.com/foto-gratis/elegante-fondo-blanco-formas-abstractas-grises_1017-19952.jpg?w=900&t=st=1663464647~exp=1663465247~hmac=d3b6ef6f60a82b5a1a9d6de44249b7cf71ed8d3782012ead7d1e916f34475381");
-  background-repeat: repeat;
-  background-size: cover;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-h1 {
+#seccionHome h1 {
   color: var(--text-navbar);
   font-family: var(--font-title);
   font-style: normal;

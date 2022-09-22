@@ -28,7 +28,7 @@ header {
   size-adjust: 100%;
 }
 header #logo {
-  width: 350px;
+  width: 500px;
   height: 500px;
 }
 
@@ -75,11 +75,11 @@ nav .navBar li .link:hover {
   max-width: -webkit-max-content;
   max-width: -moz-max-content;
   max-width: max-content;
-  padding: var(--space-medium);
+  padding: 2rem;
   gap: 10px;
-  margin-top: var(--space-xsmall);
+  margin-top: 1rem;
   border-radius: 20px;
-  background-color: var(--secondary);
+  background-color: rgba(255, 255, 255, 0.679);
   display: grid;
   grid-template-columns: 6, 1fr;
   grid-template-rows: 6, 1fr;
@@ -342,12 +342,29 @@ input, select {
   body {
     max-width: auto;
   }
+  header {
+    display: inline-flex;
+    flex-flow: column wrap;
+    max-width: auto;
+  }
+  header #logo {
+    max-width: 400px;
+    justify-content: center;
+    align-items: center;
+  }
   h1 {
     justify-content: left;
     margin-right: 50px;
     font-size: var(--text-medium);
   }
-  .link {
+  nav .navBar {
+    max-width: auto;
+  }
+  nav .navBar li {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  nav .navBar li .link {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -355,28 +372,14 @@ input, select {
     align-items: center;
     padding: auto;
     margin: auto;
-    font-size: var(--text-small);
+    font-size: 1.5em;
   }
-  nav li {
-    display: flex;
-    flex-wrap: nowrap;
-  }
-  .navBar {
-    max-width: auto;
+  nav .navBar li .link:hover {
+    background-color: #c4b9d4;
   }
   .gridLogo {
     grid-template-areas: "logo none";
     margin: auto;
-  }
-  header {
-    display: inline-flex;
-    flex-flow: column wrap;
-    max-width: auto;
-  }
-  #logo {
-    max-width: 370px;
-    justify-content: center;
-    align-items: center;
   }
   #seccionHome {
     max-width: 400px;
@@ -386,29 +389,29 @@ input, select {
     grid-template-columns: 3, 1fr;
     grid-template-rows: 5, 1fr;
   }
-  .imgHome:nth-of-type(1) {
+  #seccionHome .imgHome:nth-of-type(1) {
     max-width: 300px;
     grid-column: 1/3;
     grid-row: 1/1;
   }
-  .imgHome:nth-of-type(2) {
+  #seccionHome .imgHome:nth-of-type(2) {
     max-width: 150px;
     grid-column: 1/1;
     grid-row: 2/2;
   }
-  .imgHome:nth-of-type(3) {
+  #seccionHome .imgHome:nth-of-type(3) {
     max-width: 150px;
     grid-column: 2/3;
     grid-row: 2/2;
     opacity: 90%;
   }
-  .imgHome:nth-of-type(4) {
+  #seccionHome .imgHome:nth-of-type(4) {
     max-width: 300px;
     grid-column: 1/3;
     grid-row: 4/4;
     opacity: 95%;
   }
-  .imgHome:nth-of-type(5) {
+  #seccionHome .imgHome:nth-of-type(5) {
     max-width: 90px;
     grid-column: 2/2;
     grid-row: 5/5;

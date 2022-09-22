@@ -6,6 +6,7 @@
         width: 100%;
      }
 }
+
      /* fonts */
 @import url("https://fonts.googleapis.com/css2?family=Antic+Didone&family=Dancing+Script&family=Open+Sans&display=swap");
     /* colors */
@@ -25,17 +26,14 @@
     max-width: 1200px;
     margin: auto;
  }
-
       @import "./partials/header";
 
 /* -----------------------------------------Index-------------------------------------------- */
-@import "./partials/mainhome";
-@import "./partials/titlles";
+     @import "./partials/mainhome";
+     @import "./partials/titlles";
 
 /* -----------------------------------------footer-------------------------------------------- */
-
-@import "./partials/footer";
- 
+      @import "./partials/footer"; 
 /* -----------------------------------------sobre_mi-------------------------------------------- */
 .carouselSobreMi{
     margin: 60px 0px 0px 20px;

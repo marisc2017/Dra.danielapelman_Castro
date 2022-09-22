@@ -7,9 +7,9 @@
     font-weight: bolder;
     font-variant: small-caps;
     color: $text-navbar;
-    margin-top: $pace-large;
+    margin-top: $space-large;
     background-image: linear-gradient(to bottom, white, #8e819ffd);
-}
+
 .card-header{
     .instLogoFooter{
         max-width: 100px;
@@ -27,6 +27,6 @@
     text-align: center;
     font-style: normal;
     font-size: $text-xsmall;
-    border:  solid black;
+}
 }
 

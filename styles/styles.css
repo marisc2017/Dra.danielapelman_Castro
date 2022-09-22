@@ -143,6 +143,35 @@ h1 {
 }
 
 /* -----------------------------------------footer-------------------------------------------- */
+.cardFooter {
+  background-color: #8e819f;
+  opacity: 90%;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-size: 0.8em;
+  font-weight: bolder;
+  font-variant: small-caps;
+  color: #150425;
+  margin-top: 2.4rem;
+  background-image: linear-gradient(to bottom, white, rgba(142, 129, 159, 0.9921568627));
+}
+.cardFooter .card-header .instLogoFooter {
+  max-width: 100px;
+}
+.cardFooter .card-header .fbLogoFooter {
+  max-width: 100px;
+}
+.cardFooter .contactoDatos {
+  font-style: italic;
+  font-weight: lighter;
+  font-family: "Antic Didone", serif;
+}
+.cardFooter .copy {
+  text-align: center;
+  font-style: normal;
+  font-size: 1em;
+}
+
 /* -----------------------------------------sobre_mi-------------------------------------------- */
 .carouselSobreMi {
   margin: 60px 0px 0px 20px;

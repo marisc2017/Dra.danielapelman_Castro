@@ -1,0 +1,32 @@
+.cardFooter{
+    background-color: $primary;
+    opacity: 90%;
+    font-family: $font-principal;
+    font-style: normal;
+    font-size: $text-xxsmall;
+    font-weight: bolder;
+    font-variant: small-caps;
+    color: $text-navbar;
+    margin-top: $pace-large;
+    background-image: linear-gradient(to bottom, white, #8e819ffd);
+}
+.card-header{
+    .instLogoFooter{
+        max-width: 100px;
+    }
+    .fbLogoFooter{
+        max-width: 100px;
+    }
+}
+.contactoDatos{
+    font-style: italic;
+    font-weight: lighter;
+    font-family: $font-title;
+}
+.copy{
+    text-align: center;
+    font-style: normal;
+    font-size: $text-xsmall;
+    border:  solid black;
+}
+

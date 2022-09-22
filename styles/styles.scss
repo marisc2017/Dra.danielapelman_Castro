@@ -30,7 +30,11 @@
 
 /* -----------------------------------------Index-------------------------------------------- */
 @import "./partials/mainhome";
+@import "./partials/titlles";
 
+/* -----------------------------------------footer-------------------------------------------- */
+
+@import "./partials/footer";
  
 /* -----------------------------------------sobre_mi-------------------------------------------- */
 .carouselSobreMi{
@@ -180,63 +184,8 @@ input, select {
     border: solid var(--text-navbar);
     padding: 5px;
 }
-/* -----------------------------------------footer-------------------------------------------- */
-.contactoDatos{
-    font-style: italic;
-    font-weight: lighter;
-    font-family: var(--font-title);
-}
 
-.redesFooter{
-    text-align: center;
 
-}
-.instLogoFooter{
-    max-width: 100px;
-}
-.fbLogoFooter{
-    max-width: 100px;
-}
-#cardFooter{
-    background-color: var(--primary);
-    opacity: 90%;
-    font-family: var(--font-principal);
-    font-style: normal;
-    font-size: var(--text-xxsmall);
-    font-weight: bolder;
-    font-variant: small-caps;
-    color: var(--text-navbar);
-    margin-top: var(--space-large);
-    background-image: linear-gradient(to bottom, white, #8e819ffd);
-}
-.footer{
-    background-color: var(--primary);
-    opacity: 60%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: var(--font-principal);
-    font-style: normal;
-    font-size: var(--text-xxsmall);
-    font-weight: bolder;
-    font-variant: small-caps;
-    color: var(--text-navbar);
-    margin-top: 40px;
-    background-image: linear-gradient(to bottom, white, #8e819ffd);
-}
-footer p{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    font-size: var(--text-medium);
-}
-.copy{
-    text-align: center;
-    font-style: normal;
-    line-height: 3;
-    font-size: var(--text-xsmall);
-    margin-top: -20px;
-}
 
 /* --------------------------------------responsive---------------------------------------------- */
 @media screen and (max-width: 576px) {

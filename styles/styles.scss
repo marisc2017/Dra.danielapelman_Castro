@@ -9,8 +9,8 @@
 
      /* fonts */
 @import url("https://fonts.googleapis.com/css2?family=Antic+Didone&family=Dancing+Script&family=Open+Sans&display=swap");
-    /* colors */
-      @import "./partials/colores"; 
+   /* maps */
+   @import "./partials/maps";
     /* font-family */
       @import "./partials/fonts";
     /* font-size */
@@ -20,9 +20,9 @@
 
  /* -----------------------------------------encabezado-------------------------------------------- */
  body{
-    background-image: url("https://img.freepik.com/foto-gratis/elegante-fondo-blanco-formas-abstractas-grises_1017-19952.jpg?w=900&t=st=1663464647~exp=1663465247~hmac=d3b6ef6f60a82b5a1a9d6de44249b7cf71ed8d3782012ead7d1e916f34475381");
+    background-image: url("https://img.freepik.com/foto-gratis/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.jpg?w=900&t=st=1661704218~exp=1661704818~hmac=c1495783018fda888eeecb846b7bf95d6dab06f65aef2d54a6d36063d82a8e92");
     background-repeat: repeat;
-    background-size: cover;
+    background-size: contain;
     max-width: 1200px;
     margin: auto;
  }
@@ -47,7 +47,7 @@
     font-size: var(--text-small);
     font-weight: 100;
     font-family: var(--font-principal);
-    background-color: var(--borders-opac);
+    background-color: map-get($colors, alternative);
     border-radius: 20px;
 }
 .imgDani{

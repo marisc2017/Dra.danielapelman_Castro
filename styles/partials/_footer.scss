@@ -1,5 +1,5 @@
 .cardFooter{
-    background-color: $primary;
+    background-color: map-get($colors, alternative);
     opacity: 90%;
     font-family: $font-principal;
     font-style: normal;

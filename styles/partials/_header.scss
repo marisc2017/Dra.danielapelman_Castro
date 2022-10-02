@@ -10,14 +10,14 @@ header {
         nav {
             .navBar{
                 max-width: auto;
-                background-color: $text-color;
+                background-color: map-get($colors, primary);
                 padding: $space-small;
                 text-align: center;
                 display: flex;
                 justify-content: center;
                 border-radius: 5px;
                 .buttonNavBar{
-                    background-color: $alternative;
+                    background-color: map-get($colors, alternative );
                     &:hover { 
                         width: 100px;
                     }
@@ -25,7 +25,7 @@ header {
                li {
                 display: inline;
                 flex-wrap: wrap;
-                background-color: $text-color;
+                background-color: map-get($colors, textColor );
                 list-style: none;
                 .link {
                   text-decoration: none;
@@ -34,13 +34,13 @@ header {
                   font-variant: small-caps;
                   font-size: $text-medium;
                   font-family: $font-title;
-                  color: $text-navbar;
+                  color: map-get($colors,textNavbar);
                   display: inline flex;
                   flex-wrap: wrap;
-                  background-color: $text-color;
+                  background-color: map-get($colors,textColor);
                   list-style: none;
                   &:hover{
-                    color: $text-navbar;
+                    color: map-get($colors,textNavbar);
                   }
                 }
             }

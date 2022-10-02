@@ -4,7 +4,7 @@
      gap: 10px;
      margin-top: $space-xsmall;
      border-radius: 20px;
-     background-color: $secondary;
+     background-color: map-get($colors, secondary);
      display: grid;
      grid-template-columns: (6, 1fr) ;
      grid-template-rows: (6, 1fr) ;
@@ -56,3 +56,6 @@
     
     
 }
+/* -----------------------------------------sobre_mi-------------------------------------------- */
+
+

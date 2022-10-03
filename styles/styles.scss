@@ -18,6 +18,10 @@
     /* spacings */
       @import "./partials/spacing";
 
+      @import "./partials/titlles";
+      @import "./partials/mainhome";
+
+     @import "./partials/footer"; 
  /* -----------------------------------------encabezado-------------------------------------------- */
  body{
     background-image: url("https://img.freepik.com/foto-gratis/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.jpg?w=900&t=st=1661704218~exp=1661704818~hmac=c1495783018fda888eeecb846b7bf95d6dab06f65aef2d54a6d36063d82a8e92");
@@ -26,85 +30,6 @@
     max-width: 1200px;
     margin: auto;
  }
-      @import "./partials/header";
-
-/* -----------------------------------------Index-------------------------------------------- */
-     @import "./partials/mainhome";
-     @import "./partials/titlles";
-
-/* -----------------------------------------footer-------------------------------------------- */
-      @import "./partials/footer"; 
-/* -----------------------------------------sobre_mi-------------------------------------------- */
-.carouselSobreMi{
-    margin: 60px 0px 0px 20px;
-}
-.sobreMiParrafo {
-    margin: var(--space-medium);
-    padding: var(--space-large);
-    width: 500px auto;
-    height: 300px auto;
-    font-style: italic;
-    font-size: var(--text-small);
-    font-weight: 100;
-    font-family: var(--font-principal);
-    background-color: map-get($colors, alternative);
-    border-radius: 20px;
-}
-.imgDani{
-    border-radius: 20px;
-    width:  300px;
-    height: 450px;
-}
-.imgDani2{
-    border-radius: 20px;
-    width: 150px;
-    height: 230px;
-}
-.imgDani3{
-    border-radius: 50px;
-    opacity: 50%;
-    width:60px;
-    height:60px;
-}
-/* -----------------------------------------Trat.Faciales-------------------------------------------- */
-h2{
-    font-size: var(--text-medium);
-    font-weight: 700;
-    font-family: var(--font-title);
-    margin: var(--space-medium);
-    padding-bottom: var(--space-medium);
-    color: var(--text-navbar);
-}
-.carouselCardTrat{
-    margin: 2px 60px 0px 60px;
-}
-.cardPrp{
-    background-color: var(--borders-opac)
-}
-.imgTratamientos{
-    margin: 5px 50px 10px 50px;
-    max-width: 60rem;
-
-}
-.mainTexto, .mainTexto2 {
-    line-height: var(--space-medium);
-    text-align: center;
-    font-style: italic;
-    font-size: var(--text-small);
-    font-weight: 100;
-    font-family: var(--font-principal);
-    padding-bottom: var(--space-small);
-    align-items: center;
-    max-width: 100%;
-
-}
-
-/* -----------------------------------------Trat.Corporales-------------------------------------------- */
-h3{
-    text-align: center;
-    font-family: var(--font-title);
-    font-size: var(--text-xsmall);
-}
 /* -----------------------------------------Contacto-------------------------------------------- */
 .cardForm{
     background-color: var(--alternative);

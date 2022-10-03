@@ -70,7 +70,7 @@
     font-size: var(--text-small);
     font-weight: 100;
     font-family: var(--font-principal);
-    background-color: map-get($map: colors, $key: alternative );
+    background-color: map-get($colors, alternative);
     border-radius: 20px;
 }
 /* -----------------------------------------Trat.Faciales-------------------------------------------- */
@@ -80,7 +80,7 @@ h2{
     font-family: var(--font-title);
     margin: var(--space-medium);
     padding-bottom: var(--space-medium);
-    color: var(--text-navbar);
+    color: map-get($colors, navBar );
 }
 .carouselCardTrat{
     margin: 2px 60px 0px 60px;

@@ -1,0 +1,26 @@
+%bottonDefault{
+    transition: padding 1s;
+    border: solid var(--borders);
+    background-color: map-get($colors, borderOpac );
+      & :hover{
+    background-color: map-get($colors, borders );
+    color: map-get($colors, alternative );
+    padding: 5px;
+   }
+}   
+
+
+#botonContacto{
+    @extend %bottonDefault;
+    border: solid map-get($colors,navBar);
+    border-bottom: solid black;
+   } 
+
+#botonContacto2{
+    @extend #botonContacto ;
+}
+
+ #redesContacto{
+    @extend %bottonDefault;
+    border: solid map-get($colors,borderOpac);
+    }

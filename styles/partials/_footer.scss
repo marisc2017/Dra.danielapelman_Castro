@@ -6,7 +6,7 @@
     font-size: $text-xxsmall;
     font-weight: bolder;
     font-variant: small-caps;
-    color: $text-navbar;
+    color: map-get($colors , navBar );
     margin-top: $space-large;
     background-image: linear-gradient(to bottom, white, #8e819ffd);
 

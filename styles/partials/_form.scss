@@ -1,0 +1,44 @@
+.cardForm{
+    @include cardFormContacto ($backgColor: alternative, $border: none);
+    h4{
+        color: map-get($colors, navBar );
+        font-size: var(--text-small);
+        font-weight: lighter;
+        border-radius: 20px;
+        padding: var(--text-xxsmall);
+        font-style: var(--font-title);
+    }
+    
+    .camposObligatorios{
+        text-align: center;
+        font-family: var(--font-title);
+        font-size: var(--text-xsmall);
+        font-style: italic;
+    }
+    input, select {
+        width : 10rem;
+        height: 1rem;
+    }
+    
+    .p, label{
+        text-align: center;
+        font-family: var(--font-principal);
+        font-size: var(--text-xsmall);
+        font-weight: 400;
+        padding: 15px;
+    }
+}
+
+
+.cardContacto{
+    @include cardFormContacto ($backgColor: alternative, $border: 03px solid navBar);
+    margin-bottom: var(--space-small);
+    #textoContacto{
+        border-radius: 50px;
+        padding: 8px;
+        margin-bottom: 50px;
+        background-color: map-get($colors,primary);
+    }
+}
+
+

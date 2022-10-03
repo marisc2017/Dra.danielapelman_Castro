@@ -1,0 +1,8 @@
+@mixin cardFormContacto ($backgColor, $border) {
+    background-color: $backgColor;
+    text-align: center;
+    border-radius: 20px;
+    border: $border ;
+    padding: var(--space-medium);
+    
+}

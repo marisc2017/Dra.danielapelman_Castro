@@ -6,24 +6,21 @@
         width: 100%;
      }
 }
-
-     /* fonts */
 @import url("https://fonts.googleapis.com/css2?family=Antic+Didone&family=Dancing+Script&family=Open+Sans&display=swap");
-   /* maps */
-      @import "./partials/maps";
-   /* extends */
+      @import "./partials/maps";  
       @import "./partials/extendsButtons";
-   /* mixins */
-    @import "./partials/mixins";   
-    /* font-family */
+      @import "./partials/mixins";   
       @import "./partials/fonts";
-    /* font-size */
       @import "./partials/sizes";
-    /* spacings */
       @import "./partials/spacing";
-
-     @import "./partials/titlles";
- /* -----------------------------------------encabezado-------------------------------------------- */
+      @import "./partials/titlles";
+      @import "./partials/header";
+      @import "./partials/header";
+      @import "./partials/mainhome";
+      @import "./partials/titlles";
+      @import "./partials/footer"; 
+      @import "./partials/form";
+      @import "./partials/responsive";
  body{
     background-image: url("https://img.freepik.com/foto-gratis/elegante-fondo-blanco-formas-abstractas-grises_1017-19952.jpg?w=900&t=st=1663464647~exp=1663465247~hmac=d3b6ef6f60a82b5a1a9d6de44249b7cf71ed8d3782012ead7d1e916f34475381");
     background-repeat: repeat;
@@ -31,16 +28,3 @@
     max-width: 1200px;
     margin: auto;
  }
-      @import "./partials/header";
-
-/* -----------------------------------------Index-------------------------------------------- */
-     @import "./partials/mainhome";
-     @import "./partials/titlles";
-
-/* -----------------------------------------footer-------------------------------------------- */
-      @import "./partials/footer"; 
-/* -----------------------------------------Contacto-------------------------------------------- */
-@import "./partials/form";
-
-/* --------------------------------------responsive---------------------------------------------- */
-@import "./partials/responsive";

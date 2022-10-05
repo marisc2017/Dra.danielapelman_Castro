@@ -1,10 +1,10 @@
 h1{ 
-    color: map-get($colors, alternative);
+    color: $alternative;
     font-family: var(--font-title);
     font-style: normal;
     font-size: var(--text-large);
     font-variant: small-caps;
-    background-color: map-get($map:colors , $key: alternative );
+    background-color: $alternativo;
     border-bottom-right-radius: 20px;
     padding: var(--space-small);
     justify-content: center;

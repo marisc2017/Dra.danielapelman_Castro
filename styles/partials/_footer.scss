@@ -1,12 +1,12 @@
 .cardFooter{
-    background-color: map-get($colors, alternative);
+    background-color: $alternativo;
     opacity: 90%;
     font-family: $font-principal;
     font-style: normal;
     font-size: $text-xxsmall;
     font-weight: bolder;
     font-variant: small-caps;
-    color: map-get($colors , navBar );
+    color: $TextoNavBar;
     margin-top: $space-large;
     background-image: linear-gradient(to bottom, white, #8e819ffd);
 

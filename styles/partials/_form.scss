@@ -1,7 +1,7 @@
 .cardForm{
     @include cardFormContacto ($backgColor: alternative, $border: none);
     h4{
-        color: map-get($colors, navBar );
+        color: $navBar;
         font-size: var(--text-small);
         font-weight: lighter;
         border-radius: 20px;
@@ -37,7 +37,7 @@
         border-radius: 50px;
         padding: 8px;
         margin-bottom: 50px;
-        background-color: map-get($colors,primary);
+        background-color: $primary;
     }
 }
 

@@ -4,7 +4,7 @@
      gap: 10px;
      margin-top: $space-xsmall;
      border-radius: 20px;
-     background-color: map-get($colors, secondary);
+     background-color: $secundario;
      display: grid;
      grid-template-columns: (6, 1fr) ;
      grid-template-rows: (6, 1fr) ;
@@ -70,7 +70,7 @@
     font-size: var(--text-small);
     font-weight: 100;
     font-family: var(--font-principal);
-    background-color: map-get($colors, alternative);
+    background-color: $alternativo;
     border-radius: 20px;
 }
 /* -----------------------------------------Trat.Faciales-------------------------------------------- */
@@ -80,13 +80,13 @@ h2{
     font-family: var(--font-title);
     margin: var(--space-medium);
     padding-bottom: var(--space-medium);
-    color: map-get($colors, navBar );
+    color: $TextoNavBar;
 }
 .carouselCardTrat{
     margin: 2px 60px 0px 60px;
 }
 .cardPrp{
-    background-color: var(--borders-opac)
+    background-color: $alternativo;
 }
 .imgTratamientos{
     margin: 5px 50px 10px 50px;

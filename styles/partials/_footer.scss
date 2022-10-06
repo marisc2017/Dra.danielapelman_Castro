@@ -1,3 +1,10 @@
+@import "./colores";
+@import "./fonts";
+@import "./maps";
+@import "./mixins";
+@import "./sizes";
+@import "./spacing";
+@import "./titlles";
 .cardFooter{
     background-color: $alternativo;
     opacity: 90%;

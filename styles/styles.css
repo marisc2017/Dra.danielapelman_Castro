@@ -1,25 +1,115 @@
 @import url("https://fonts.googleapis.com/css2?family=Antic+Didone&family=Dancing+Script&family=Open+Sans&display=swap");
-* {
-  margin: 0px;
-  padding: 0px;
-  font-family: "Open Sans", sans-serif;
-}
-* img {
-  width: 100%;
+h1 {
+  color: #150425;
+  font-family: "Antic Didone", serif;
+  font-style: normal;
+  font-size: 2.5em;
+  font-variant: small-caps;
+  background-color: #c4b9d4;
+  border-bottom-right-radius: 20px;
+  padding: 1, 5rem;
+  justify-content: center;
 }
 
-/* fonts */
-/* colors */
-/* font-family */
-/* font-size */
-/* spacings */
-/* -----------------------------------------encabezado-------------------------------------------- */
-body {
-  background-image: url("https://img.freepik.com/foto-gratis/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.jpg?w=900&t=st=1661704218~exp=1661704818~hmac=c1495783018fda888eeecb846b7bf95d6dab06f65aef2d54a6d36063d82a8e92");
-  background-repeat: repeat;
-  background-size: contain;
-  max-width: 1200px;
-  margin: auto;
+h2 {
+  font-size: 2em;
+  font-weight: 700;
+  font-family: "Antic Didone", serif;
+  margin: 2rem;
+  padding-bottom: 2rem;
+  color: #150425;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Antic Didone", serif;
+  font-size: 1em;
+}
+
+#redesContacto, #botonContacto, #botonContacto2, .buttonNavBar {
+  transition: 1s;
+  border: solid;
+  border-color: #8ab9ca;
+  background-color: #c4b9d4;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin: 0.8em;
+}
+#redesContacto :hover, #botonContacto :hover, #botonContacto2 :hover, .buttonNavBar :hover {
+  background-color: rgba(142, 129, 159, 0.9921568627);
+  color: #150425;
+  padding: 2.5em;
+}
+
+.buttonNavBar {
+  transition: none;
+}
+.buttonNavBar:hover {
+  padding: none;
+}
+
+#botonContacto, #botonContacto2 {
+  border: solid #c4b9d4;
+  border-bottom: solid rgba(142, 129, 159, 0.9921568627);
+}
+
+#redesContacto {
+  border: solid rgba(142, 129, 159, 0.9921568627);
+}
+
+h1 {
+  color: #150425;
+  font-family: "Antic Didone", serif;
+  font-style: normal;
+  font-size: 2.5em;
+  font-variant: small-caps;
+  background-color: #c4b9d4;
+  border-bottom-right-radius: 20px;
+  padding: 1, 5rem;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 700;
+  font-family: "Antic Didone", serif;
+  margin: 2rem;
+  padding-bottom: 2rem;
+  color: #150425;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Antic Didone", serif;
+  font-size: 1em;
+}
+
+h1 {
+  color: #150425;
+  font-family: "Antic Didone", serif;
+  font-style: normal;
+  font-size: 2.5em;
+  font-variant: small-caps;
+  background-color: #c4b9d4;
+  border-bottom-right-radius: 20px;
+  padding: 1, 5rem;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 700;
+  font-family: "Antic Didone", serif;
+  margin: 2rem;
+  padding-bottom: 2rem;
+  color: #150425;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Antic Didone", serif;
+  font-size: 1em;
 }
 
 header {
@@ -34,7 +124,7 @@ header #logo {
 
 nav .navBar {
   max-width: auto;
-  background-color: rgba(142, 129, 159, 0.9921568627);
+  background-color: #8e819f;
   padding: 1, 5rem;
   text-align: center;
   display: flex;
@@ -70,7 +160,33 @@ nav .navBar li .link:hover {
   color: #150425;
 }
 
-/* -----------------------------------------Index-------------------------------------------- */
+h1 {
+  color: #150425;
+  font-family: "Antic Didone", serif;
+  font-style: normal;
+  font-size: 2.5em;
+  font-variant: small-caps;
+  background-color: #c4b9d4;
+  border-bottom-right-radius: 20px;
+  padding: 1, 5rem;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 700;
+  font-family: "Antic Didone", serif;
+  margin: 2rem;
+  padding-bottom: 2rem;
+  color: #150425;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Antic Didone", serif;
+  font-size: 1em;
+}
+
 #seccionHome {
   max-width: -webkit-max-content;
   max-width: -moz-max-content;
@@ -130,21 +246,79 @@ nav .navBar li .link:hover {
   transform: scale(0.99);
 }
 
+/* -----------------------------------------sobre_mi-------------------------------------------- */
+.carouselSobreMi {
+  margin: 60px 0px 0px 20px;
+}
+
+.sobreMiParrafo {
+  margin: 2rem;
+  padding: 2.4rem;
+  width: 500px auto;
+  height: 300px auto;
+  font-style: italic;
+  font-size: 1.5em;
+  font-weight: 100;
+  font-family: "Open Sans", sans-serif;
+  background-color: #c4b9d4;
+  border-radius: 20px;
+}
+
+/* -----------------------------------------Trat.Faciales-------------------------------------------- */
+.carouselCardTrat {
+  margin: 2px 60px 0px 60px;
+}
+
+.cardPrp {
+  background-color: #c4b9d4;
+}
+
+.imgTratamientos {
+  margin: 5px 50px 10px 50px;
+  max-width: 60rem;
+}
+
+.mainTexto, .mainTexto2 {
+  line-height: 2rem;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.5em;
+  font-weight: 100;
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 1, 5rem;
+  align-items: center;
+  max-width: 100%;
+}
+
 h1 {
-  color: var(--text-navbar);
-  font-family: var(--font-title);
+  color: #150425;
+  font-family: "Antic Didone", serif;
   font-style: normal;
-  font-size: var(--text-large);
+  font-size: 2.5em;
   font-variant: small-caps;
-  background-color: var(--alternative);
+  background-color: #c4b9d4;
   border-bottom-right-radius: 20px;
-  padding: var(--space-small);
+  padding: 1, 5rem;
   justify-content: center;
 }
 
-/* -----------------------------------------footer-------------------------------------------- */
+h2 {
+  font-size: 2em;
+  font-weight: 700;
+  font-family: "Antic Didone", serif;
+  margin: 2rem;
+  padding-bottom: 2rem;
+  color: #150425;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Antic Didone", serif;
+  font-size: 1em;
+}
+
 .cardFooter {
-  background-color: #8e819f;
+  background-color: #c4b9d4;
   opacity: 90%;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
@@ -172,172 +346,108 @@ h1 {
   font-size: 1em;
 }
 
-/* -----------------------------------------sobre_mi-------------------------------------------- */
-.carouselSobreMi {
-  margin: 60px 0px 0px 20px;
+h1 {
+  color: #150425;
+  font-family: "Antic Didone", serif;
+  font-style: normal;
+  font-size: 2.5em;
+  font-variant: small-caps;
+  background-color: #c4b9d4;
+  border-bottom-right-radius: 20px;
+  padding: 1, 5rem;
+  justify-content: center;
 }
 
-.sobreMiParrafo {
-  margin: var(--space-medium);
-  padding: var(--space-large);
-  width: 500px auto;
-  height: 300px auto;
-  font-style: italic;
-  font-size: var(--text-small);
-  font-weight: 100;
-  font-family: var(--font-principal);
-  background-color: var(--borders-opac);
-  border-radius: 20px;
-}
-
-.imgDani {
-  border-radius: 20px;
-  width: 300px;
-  height: 450px;
-}
-
-.imgDani2 {
-  border-radius: 20px;
-  width: 150px;
-  height: 230px;
-}
-
-.imgDani3 {
-  border-radius: 50px;
-  opacity: 50%;
-  width: 60px;
-  height: 60px;
-}
-
-/* -----------------------------------------Trat.Faciales-------------------------------------------- */
 h2 {
-  font-size: var(--text-medium);
+  font-size: 2em;
   font-weight: 700;
-  font-family: var(--font-title);
-  margin: var(--space-medium);
-  padding-bottom: var(--space-medium);
-  color: var(--text-navbar);
+  font-family: "Antic Didone", serif;
+  margin: 2rem;
+  padding-bottom: 2rem;
+  color: #150425;
 }
 
-.carouselCardTrat {
-  margin: 2px 60px 0px 60px;
-}
-
-.cardPrp {
-  background-color: var(--borders-opac);
-}
-
-.imgTratamientos {
-  margin: 5px 50px 10px 50px;
-  max-width: 60rem;
-}
-
-.mainTexto, .mainTexto2 {
-  line-height: var(--space-medium);
-  text-align: center;
-  font-style: italic;
-  font-size: var(--text-small);
-  font-weight: 100;
-  font-family: var(--font-principal);
-  padding-bottom: var(--space-small);
-  align-items: center;
-  max-width: 100%;
-}
-
-/* -----------------------------------------Trat.Corporales-------------------------------------------- */
 h3 {
   text-align: center;
-  font-family: var(--font-title);
-  font-size: var(--text-xsmall);
+  font-family: "Antic Didone", serif;
+  font-size: 1em;
 }
 
-/* -----------------------------------------Contacto-------------------------------------------- */
 .cardForm {
-  background-color: var(--alternative);
+  background-color: rgba(138, 185, 202, 0.7215686275);
   text-align: center;
   border-radius: 20px;
-  padding: var(--space-medium);
-  margin-top: var(--space-medium);
+  border: none;
+  padding: 2rem;
 }
-
-#redesContacto {
-  transition: padding 1s;
-  border: solid var(--borders);
-  background-color: var(--borders-opac);
-}
-
-#redesContacto:hover {
-  background-color: var(--borders);
-  color: white;
-  border: solid var(--text-navbar);
-  padding: 5px;
-}
-
-.cardContacto {
-  background-color: var(--alternative);
-  text-align: center;
-  border-radius: 20px;
-  padding: 15px;
-  margin-bottom: var(--space-small);
-}
-
-#textoContacto {
-  border-radius: 50px;
-  padding: 8px;
-  margin-bottom: 50px;
-  background-color: var(--primary);
-}
-
-h4 {
-  color: var(--text-navbar);
-  font-size: var(--text-small);
+.cardForm h4 {
+  color: #150425;
+  font-size: 1.5em;
   font-weight: lighter;
   border-radius: 20px;
-  padding: var(--text-xxsmall);
-  font-style: var(--font-title);
+  padding: 0.8em;
+  font-style: "Antic Didone", serif;
 }
-
-.camposObligatorios {
+.cardForm .camposObligatorios {
   text-align: center;
-  font-family: var(--font-title);
-  font-size: var(--text-xsmall);
+  font-family: "Antic Didone", serif;
+  font-size: 1em;
   font-style: italic;
 }
-
-.contactosTexto {
-  align-content: center;
-  line-height: auto;
-  max-width: auto;
-  grid-area: contactoDatos;
-}
-
-input, select {
+.cardForm input, .cardForm select {
   width: 10rem;
   height: 1rem;
 }
-
-.p, label {
+.cardForm .p, .cardForm label {
   text-align: center;
-  font-family: var(--font-principal);
-  font-size: var(--text-xsmall);
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
   font-weight: 400;
   padding: 15px;
 }
 
-#botonContacto {
-  transition: padding 1s;
-  border: solid var(--borders);
-  background-color: var(--borders-opac);
+.cardContacto {
+  background-color: rgba(138, 185, 202, 0.7215686275);
+  text-align: center;
+  border-radius: 20px;
+  border: 3px solid navBar;
+  padding: 2rem;
+  margin-bottom: 1, 5rem;
+}
+.cardContacto #textoContacto {
+  border-radius: 50px;
+  padding: 8px;
+  margin-bottom: 50px;
+  background-color: #8e819f;
 }
 
-#botonContacto:hover {
-  background-color: var(--borders);
-  color: white;
-  border: solid var(--text-navbar);
-  padding: 5px;
+h1 {
+  color: #150425;
+  font-family: "Antic Didone", serif;
+  font-style: normal;
+  font-size: 2.5em;
+  font-variant: small-caps;
+  background-color: #c4b9d4;
+  border-bottom-right-radius: 20px;
+  padding: 1, 5rem;
+  justify-content: center;
 }
 
-/* --------------------------------------responsive---------------------------------------------- */
+h2 {
+  font-size: 2em;
+  font-weight: 700;
+  font-family: "Antic Didone", serif;
+  margin: 2rem;
+  padding-bottom: 2rem;
+  color: #150425;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Antic Didone", serif;
+  font-size: 1em;
+}
+
 @media screen and (max-width: 576px) {
   body {
     max-width: auto;
@@ -355,7 +465,7 @@ input, select {
   h1 {
     justify-content: left;
     margin-right: 50px;
-    font-size: var(--text-medium);
+    font-size: 2em;
   }
   nav .navBar {
     max-width: auto;
@@ -375,7 +485,7 @@ input, select {
     font-size: 1.5em;
   }
   nav .navBar li .link:hover {
-    background-color: #c4b9d4;
+    background-color: #8ab9ca;
   }
   .gridLogo {
     grid-template-areas: "logo none";
@@ -383,9 +493,9 @@ input, select {
   }
   #seccionHome {
     max-width: 400px;
-    padding: var(--space-small);
+    padding: 1, 5rem;
     gap: 2px;
-    margin-top: var(--space-xsmall);
+    margin-top: 1rem;
     grid-template-columns: 3, 1fr;
     grid-template-rows: 5, 1fr;
   }
@@ -417,15 +527,16 @@ input, select {
     grid-row: 5/5;
   }
   .carouselSobreMi {
-    max-width: 250px;
+    max-width: 100px;
     justify-items: center;
     align-items: center;
   }
   .sobreMiParrafo {
     text-align: center;
+    align-items: center;
   }
   h2 {
-    font-size: var(--text-medium);
+    font-size: 2em;
     text-align: center;
   }
   textarea {
@@ -434,6 +545,7 @@ input, select {
   }
   .cardContacto, .cardForm {
     max-width: 24rem;
+    margin-top: 2.5em;
   }
   .redesContacto {
     max-width: 300px;
@@ -442,4 +554,19 @@ input, select {
     align-items: center;
   }
 }
-/*# sourceMappingURL=styles.css.map */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif, "Antic Didone", serif;
+}
+* img {
+  width: 100%;
+}
+
+body {
+  background-image: url("https://img.freepik.com/foto-gratis/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.jpg?w=900&t=st=1661704218~exp=1661704818~hmac=c1495783018fda888eeecb846b7bf95d6dab06f65aef2d54a6d36063d82a8e92");
+  background-repeat: repeat;
+  background-size: contain;
+  max-width: 1200px;
+  margin: auto;
+}/*# sourceMappingURL=styles.css.map */

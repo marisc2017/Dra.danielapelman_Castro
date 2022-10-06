@@ -1,19 +1,37 @@
+@import "./colores";
+@import "./fonts";
+@import "./maps";
+@import "./mixins";
+@import "./sizes";
+@import "./spacing";
+@import "./titlles";
+
 %bottonDefault{
-    transition: padding 1s;
-    border: solid var(--borders);
-    background-color: $bordeTransparente;
+    transition: map-get($transiciones, padding );
+    border: solid;
+    border-color: $bordes;
+    background-color: $alternativo;
+    max-width: fit-content;
+    margin: $text-xxsmall;
       & :hover{
-    background-color: $bordes;
-    color: $alternativo;
-    padding: 5px;
+    background-color: $textoColor;
+    color: $TextoNavBar;
+    padding: $text-large
    }
 }   
 
+.buttonNavBar{
+  @extend %bottonDefault;
+  transition: none;
+   &:hover{
+    padding: none;
+   }
+}
 
 #botonContacto{
     @extend %bottonDefault;
-    border: solid $TextoNavBar;
-    border-bottom: solid black;
+    border: solid $alternativo;
+    border-bottom: solid $textoColor;
    } 
 
 #botonContacto2{
@@ -22,5 +40,5 @@
 
  #redesContacto{
     @extend %bottonDefault;
-    border: solid $bordeTransparente;
+    border: solid $textoColor;
     }

@@ -1,3 +1,10 @@
+@import "./colores";
+@import "./fonts";
+@import "./maps";
+@import "./mixins";
+@import "./sizes";
+@import "./spacing";
+@import "./titlles";
 @media screen and (max-width: 576px) {
     body{
         max-width: auto;
@@ -16,7 +23,7 @@
     h1{ 
         justify-content: left;
         margin-right: 50px;
-        font-size: var(--text-medium);
+        font-size: $text-medium;
     }
 
 
@@ -52,9 +59,9 @@
    
     #seccionHome{
         max-width: 400px;
-         padding: var(--space-small);
+         padding: $space-small;
          gap: 2px;
-         margin-top: var(--space-xsmall);
+         margin-top: $space-xsmall;
          grid-template-columns: (3, 1fr) ;
          grid-template-rows: (5, 1fr) ;
      .imgHome:nth-of-type(1){
@@ -86,15 +93,16 @@
     }
 }
     .carouselSobreMi{
-        max-width: 250px;
+        max-width: 100px;
         justify-items: center;
         align-items: center;
     }
     .sobreMiParrafo{
         text-align: center;
+        align-items: center;
     }
     h2{
-        font-size: var(--text-medium);
+        font-size: $text-medium;
         text-align: center;
     }
     textarea{
@@ -104,6 +112,7 @@
 
      .cardContacto, .cardForm{
     max-width: 24rem;
+    margin-top: $text-large;
 
      }
     .redesContacto{

@@ -1,11 +1,26 @@
 h1{ 
-    color: $alternative;
-    font-family: var(--font-title);
+    color: $TextoNavBar;
+    font-family: $font-title;
     font-style: normal;
-    font-size: var(--text-large);
+    font-size: $text-large;
     font-variant: small-caps;
     background-color: $alternativo;
     border-bottom-right-radius: 20px;
-    padding: var(--space-small);
+    padding: $space-small;
     justify-content: center;
+}
+
+h2{
+    font-size: $text-medium;
+    font-weight: 700;
+    font-family: $font-title;
+    margin: $space-medium;
+    padding-bottom: $space-medium;
+    color: $TextoNavBar;
+}
+
+h3{
+    text-align: center;
+    font-family: $font-title;
+    font-size: $text-xsmall;
 }

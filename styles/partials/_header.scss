@@ -1,3 +1,10 @@
+@import "./colores";
+@import "./fonts";
+@import "./maps";
+@import "./mixins";
+@import "./sizes";
+@import "./spacing";
+@import "./titlles";
 header {
     display: inline flex;
     flex-flow: row nowrap;
@@ -34,7 +41,7 @@ header {
                   font-variant: small-caps;
                   font-size: $text-medium;
                   font-family: $font-title;
-                  color: $textoNavBar;
+                  color: $TextoNavBar;
                   display: inline flex;
                   flex-wrap: wrap;
                   background-color: $textoColor;

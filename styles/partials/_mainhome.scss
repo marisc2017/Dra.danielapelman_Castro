@@ -1,3 +1,10 @@
+@import "./colores";
+@import "./fonts";
+@import "./maps";
+@import "./mixins";
+@import "./sizes";
+@import "./spacing";
+@import "./titlles";
 #seccionHome{
     max-width: max-content;
      padding: $space-medium;
@@ -62,26 +69,19 @@
     margin: 60px 0px 0px 20px;
 }
 .sobreMiParrafo {
-    margin: var(--space-medium);
-    padding: var(--space-large);
+    margin: $space-medium;
+    padding: $space-large;
     width: 500px auto;
     height: 300px auto;
     font-style: italic;
-    font-size: var(--text-small);
+    font-size: $text-small;
     font-weight: 100;
-    font-family: var(--font-principal);
+    font-family: $font-principal;
     background-color: $alternativo;
     border-radius: 20px;
 }
 /* -----------------------------------------Trat.Faciales-------------------------------------------- */
-h2{
-    font-size: var(--text-medium);
-    font-weight: 700;
-    font-family: var(--font-title);
-    margin: var(--space-medium);
-    padding-bottom: var(--space-medium);
-    color: $TextoNavBar;
-}
+
 .carouselCardTrat{
     margin: 2px 60px 0px 60px;
 }
@@ -94,21 +94,15 @@ h2{
 
 }
 .mainTexto, .mainTexto2 {
-    line-height: var(--space-medium);
+    line-height: $space-medium;
     text-align: center;
     font-style: italic;
-    font-size: var(--text-small);
+    font-size: $text-small;
     font-weight: 100;
-    font-family: var(--font-principal);
-    padding-bottom: var(--space-small);
+    font-family: $font-principal;
+    padding-bottom: $space-small;
     align-items: center;
     max-width: 100%;
 
 }
 
-/* -----------------------------------------Trat.Corporales-------------------------------------------- */
-h3{
-    text-align: center;
-    font-family: var(--font-title);
-    font-size: var(--text-xsmall);
-}

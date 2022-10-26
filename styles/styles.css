@@ -27,8 +27,8 @@ h3 {
 }
 
 #redesContacto, #botonContacto, #botonContacto2, .buttonNavBar {
-  transition: 1s;
-  border: solid;
+  transition: 0.1s black;
+  border: none;
   border-color: #8ab9ca;
   background-color: #c4b9d4;
   max-width: -webkit-fit-content;
@@ -39,7 +39,7 @@ h3 {
 #redesContacto :hover, #botonContacto :hover, #botonContacto2 :hover, .buttonNavBar :hover {
   background-color: rgba(142, 129, 159, 0.9921568627);
   color: #150425;
-  padding: 2.5em;
+  padding: 1.5em;
 }
 
 .buttonNavBar {

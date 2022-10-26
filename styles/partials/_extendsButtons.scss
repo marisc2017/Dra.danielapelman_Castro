@@ -11,12 +11,12 @@
     border: solid;
     border-color: $bordes;
     background-color: $alternativo;
-    max-width: fit-content;
+    max-width: cover;
     margin: $text-xxsmall;
       & :hover{
     background-color: $textoColor;
     color: $TextoNavBar;
-    padding: $text-large
+    padding: $text-;
    }
 }   
 
